@@ -4,7 +4,7 @@ namespace Figure.Shared;
 
     public class Knight : IFigure
     {
-        private char figureSymbol = 'N';
+        private char figureSymbol = 'H';
         public ConsoleColor color{get; set;}
 
         public Knight(ConsoleColor color)
