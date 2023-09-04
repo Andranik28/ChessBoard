@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ChessBoardClass/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ChessBoardClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChessBoardClass.dll": {}
+        }
+      },
+      "FigureClasses/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/FigureClasses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FigureClasses.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChessBoardClass/1.0.0": {
+      "type": "project",
+      "path": "../ChessBoardClass/ChessBoardClass.csproj",
+      "msbuildProject": "../ChessBoardClass/ChessBoardClass.csproj"
+    },
+    "FigureClasses/1.0.0": {
+      "type": "project",
+      "path": "../FigureClasses/FigureClasses.csproj",
+      "msbuildProject": "../FigureClasses/FigureClasses.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ChessBoardClass >= 1.0.0",
+      "FigureClasses >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\ChessBoard\\ChessApp\\ChessApp.csproj",
+      "projectName": "ChessApp",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\ChessBoard\\ChessApp\\ChessApp.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\ChessBoard\\ChessApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\Admin\\Desktop\\ChessBoard\\ChessBoardClass\\ChessBoardClass.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\ChessBoard\\ChessBoardClass\\ChessBoardClass.csproj"
+            },
+            "C:\\Users\\Admin\\Desktop\\ChessBoard\\FigureClasses\\FigureClasses.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\ChessBoard\\FigureClasses\\FigureClasses.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
