@@ -1,2 +1,2 @@
-CHESS GAME
-Chess Game created with C#.
+# CHESS GAME
+## Chess Game created with C#.
