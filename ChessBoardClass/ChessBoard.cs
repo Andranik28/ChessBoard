@@ -47,7 +47,7 @@ public class ChessBoard
 
     public void PrintBoard()
         {
-            Console.WriteLine("   A B C D E F G H"); 
+            Console.WriteLine("  A B C D E F G H"); 
 
             for (int row = 0; row < 8; row++)
             {
@@ -64,7 +64,7 @@ public class ChessBoard
                 Console.ResetColor();
                 Console.WriteLine(" " + (8 - row)); 
             }
-            Console.WriteLine("   A B C D E F G H");
+            Console.WriteLine("  A B C D E F G H");
         }   
     }
 

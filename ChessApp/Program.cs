@@ -5,6 +5,7 @@ using ChessBoardClass.Shared;
 using System.Diagnostics;
 
 RunChess();
+RunKnightMoveCheck();
 
 void RunChess()
 {
@@ -53,7 +54,7 @@ void RunChess()
     }                   
 }
 
-void RunHorseMoveCheck()
+void RunKnightMoveCheck()
 {
     ChessBoard chessBoard = new ChessBoard();
     Knight knight = new Knight(ConsoleColor.White);

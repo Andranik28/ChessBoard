@@ -12,8 +12,7 @@ namespace Figure.Shared;
                 this.color = color;
 
             }
-
-        
+                   
         public  char GetSymbol()
         {
             return figureSymbol;
