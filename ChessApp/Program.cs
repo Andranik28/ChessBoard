@@ -7,6 +7,7 @@ using System.Diagnostics;
 RunChess();
 RunKnightMoveCheck();
 
+
 void RunChess()
 {
     int [] cordinates = new int[2];

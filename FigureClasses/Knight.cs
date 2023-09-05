@@ -24,10 +24,10 @@ namespace Figure.Shared;
             return (dx == 2 && dy == 1) || (dx == 1 && dy == 2);
         }
 
-        public int MinimalStepsForKnight(int[] newPosition, int[] coordinates)
+        public int MinimalStepsForKnight(int[] destination, int[] currentPosition)
         {
-            int dx = Math.Abs(newPosition[0] - coordinates[0]);
-            int dy = Math.Abs(newPosition[1] - coordinates[1]);
+            int dx = Math.Abs(destination[0] - currentPosition[0]);
+            int dy = Math.Abs(destination[1] - currentPosition[1]);
             if((dx == 1 && dy == 0) || (dx == 0 && dy == 1))
             {
                 return 3;
